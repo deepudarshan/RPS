@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+    
+}
+
+#head1{
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 50px;
+    font-display: 50px;
+    height: 5rem;
+    line-height: 5rem;
+    
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    
+}
+.choice{
+    height: 150px;
+    width: 150px;
+
+}
+.choices{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    margin-top:5rem;
+}
+
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: blueviolet;
+    border-radius: 300%;
+}
+
+.scores{
+    margin-top:5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    font-size: 20px;
+}
+
+#u_points{
+    font-size: 50px;
+}
+#c_points{
+    font-size: 50px;
+}
+.parah-container{
+    margin-top: 100px;
+}
+#parah{
+  
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
